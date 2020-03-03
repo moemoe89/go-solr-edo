@@ -75,7 +75,7 @@ func (s *implService) Select(key, value string) ([]map[string]interface{}, int, 
 }
 
 func (s *implService) Delete(id string) (int, error) {
-	data := map[string]interface{} {
+	data := map[string]interface{}{
 		"id": id,
 	}
 	params := &url.Values{}

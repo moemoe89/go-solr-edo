@@ -4,7 +4,7 @@
 
 # PRACTICING-SOLR-GOLANG #
 
-Practicing Solr Using Golang (Martini Framework) as Programming Language, Solr as Search Platform
+Practicing Solr Using Golang (Martini Framework) with Go Mod as Programming Language, Solr as Search Platform
 
 ## Directory structure
 Your project directory structure should look like this
@@ -47,6 +47,11 @@ Make config file for local :
 ```
 $ cp config-sample.json config.json
 ```
+Change Solr address & collection based on your config :
+```
+http://localhost:8983/solr
+collection1
+```
 Build
 ```
 $ go build
@@ -60,6 +65,11 @@ $ go run main.go
 Make config file for docker :
 ```
 $ cp config-sample.json config.json
+```
+Change Solr address & collection based on your docker config :
+```
+http://solr:8983/solr
+collection1
 ```
 Build
 ```
@@ -79,4 +89,26 @@ Create core :
 ```
 $ docker exec -it --user=solr solr bin/solr create_core -c collection1
 ```
+Access Solr Admin UI :
+```
+open http://localhost:8983/
+```
 
+## How to Run Unit Test
+Run
+```
+$ go test ./...
+```
+Run with cover
+```
+$ go test ./... -cover
+```
+Run with HTML output
+```
+$ go test ./... -coverprofile=c.out && go tool cover -html=c.out
+```
+
+
+## License
+
+MIT

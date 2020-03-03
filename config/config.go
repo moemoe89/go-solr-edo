@@ -17,7 +17,7 @@ import (
 
 // ConfigurationModel represent the configuration model
 type ConfigurationModel struct {
-	Port  string `json:"port"`
+	Port string `json:"port"`
 	Solr struct {
 		Addr string `json:"addr"`
 		Core string `json:"core"`

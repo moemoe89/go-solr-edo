@@ -45,7 +45,7 @@ func (ct *ctrl) Create(req form.UserForm, r render.Render) {
 }
 
 func (ct *ctrl) Select(req *http.Request, r render.Render) {
-	key   := req.URL.Query().Get("key")
+	key := req.URL.Query().Get("key")
 	value := req.URL.Query().Get("value")
 	data, status, err := ct.svc.Select(key, value)
 	if err != nil {

@@ -35,7 +35,7 @@ func (s *solrRepository) Create(docs []solr.Document, chunkSize int, params *url
 
 func (s *solrRepository) Select(key, value string) ([]solr.Document, error) {
 	query := solr.NewQuery()
-	query.Q(key+":"+value)
+	query.Q(key + ":" + value)
 	search := s.Client.Search(query)
 	r, err := search.Result(nil)
 	if err != nil {
