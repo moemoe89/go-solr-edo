@@ -1,0 +1,7 @@
+{
+  "port": "8785",
+  "solr": {
+    "addr": "http://localhost:8983/solr",
+    "core": "collection1"
+  }
+}
