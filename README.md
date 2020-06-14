@@ -1,8 +1,8 @@
-[![CircleCI](https://circleci.com/gh/moemoe89/practicing-solr-golang.svg?style=svg)](https://circleci.com/gh/moemoe89/practicing-solr-golang)
-[![codecov](https://codecov.io/gh/moemoe89/practicing-solr-golang/branch/master/graph/badge.svg)](https://codecov.io/gh/moemoe89/practicing-solr-golang)
-[![Go Report Card](https://goreportcard.com/badge/github.com/moemoe89/practicing-solr-golang)](https://goreportcard.com/report/github.com/moemoe89/practicing-solr-golang)
+[![CircleCI](https://circleci.com/gh/moemoe89/go-solr-edo.svg?style=svg)](https://circleci.com/gh/moemoe89/go-solr-edo)
+[![codecov](https://codecov.io/gh/moemoe89/go-solr-edo/branch/master/graph/badge.svg)](https://codecov.io/gh/moemoe89/go-solr-edo)
+[![Go Report Card](https://goreportcard.com/badge/github.com/moemoe89/go-solr-edo)](https://goreportcard.com/report/github.com/moemoe89/go-solr-edo)
 
-# PRACTICING-SOLR-GOLANG #
+# GO-SOLR-EDO #
 
 Practicing Solr Using Golang (Martini Framework) with Go Mod as Programming Language, Solr as Search Platform
 
@@ -13,7 +13,7 @@ Your project directory structure should look like this
   |
   +--+ src/github.com/moemoe89
   |  |
-  |  +--+ practicing-solr-golang/
+  |  +--+ go-solr-edo/
   |     |
   |     +--+ main.go
   |        + api/
@@ -39,7 +39,7 @@ Your project directory structure should look like this
 $ mkdir -p src/github.com/moemoe89
 $ cd src/github.com/moemoe89
 $ git clone <url>
-$ mv <cloned directory> practicing-solr-golang
+$ mv <cloned directory> go-solr-edo
 ```
 
 ## Running Application

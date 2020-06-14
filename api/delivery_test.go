@@ -7,10 +7,10 @@
 package api_test
 
 import (
-	"github.com/moemoe89/practicing-solr-golang/api/api_struct/form"
-	"github.com/moemoe89/practicing-solr-golang/api/mocks"
-	"github.com/moemoe89/practicing-solr-golang/config"
-	"github.com/moemoe89/practicing-solr-golang/routers"
+	"github.com/moemoe89/go-solr-edo/api/api_struct/form"
+	"github.com/moemoe89/go-solr-edo/api/mocks"
+	"github.com/moemoe89/go-solr-edo/config"
+	"github.com/moemoe89/go-solr-edo/routers"
 
 	"encoding/json"
 	"errors"

@@ -7,9 +7,9 @@
 package api
 
 import (
-	"github.com/moemoe89/practicing-solr-golang/api/api_struct/form"
-	"github.com/moemoe89/practicing-solr-golang/api/api_struct/model"
-	cons "github.com/moemoe89/practicing-solr-golang/constant"
+	"github.com/moemoe89/go-solr-edo/api/api_struct/form"
+	"github.com/moemoe89/go-solr-edo/api/api_struct/model"
+	cons "github.com/moemoe89/go-solr-edo/constant"
 
 	"net/http"
 

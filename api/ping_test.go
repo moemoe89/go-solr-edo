@@ -7,8 +7,8 @@
 package api_test
 
 import (
-	"github.com/moemoe89/practicing-solr-golang/config"
-	"github.com/moemoe89/practicing-solr-golang/routers"
+	"github.com/moemoe89/go-solr-edo/config"
+	"github.com/moemoe89/go-solr-edo/routers"
 
 	"net/http"
 	"net/http/httptest"

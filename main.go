@@ -7,10 +7,10 @@
 package main
 
 import (
-	ap "github.com/moemoe89/practicing-solr-golang/api"
-	conf "github.com/moemoe89/practicing-solr-golang/config"
+	ap "github.com/moemoe89/go-solr-edo/api"
+	conf "github.com/moemoe89/go-solr-edo/config"
 
-	"github.com/moemoe89/practicing-solr-golang/routers"
+	"github.com/moemoe89/go-solr-edo/routers"
 )
 
 func main() {

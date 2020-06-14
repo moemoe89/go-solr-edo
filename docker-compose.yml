@@ -3,8 +3,8 @@ services:
   app:
     build: .
     volumes:
-      - .:/go/src/github.com/moemoe89/practicing-solr-golang
-    container_name: practice_solr_app
+      - .:/go/src/github.com/moemoe89/go-solr-edo
+    container_name: go_solr_edo
     restart: always
     ports:
       - "8785:8785"
@@ -14,7 +14,7 @@ services:
     networks:
       - fullstack
   solr:
-    container_name: practice_solr
+    container_name: db_solr
     image: solr:8
     ports:
      - "8983:8983"

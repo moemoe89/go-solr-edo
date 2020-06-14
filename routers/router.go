@@ -7,8 +7,8 @@
 package routers
 
 import (
-	ap "github.com/moemoe89/practicing-solr-golang/api"
-	"github.com/moemoe89/practicing-solr-golang/api/api_struct/form"
+	ap "github.com/moemoe89/go-solr-edo/api"
+	"github.com/moemoe89/go-solr-edo/api/api_struct/form"
 
 	"github.com/codegangsta/martini-contrib/binding"
 	"github.com/go-martini/martini"

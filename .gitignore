@@ -50,7 +50,7 @@ inuit_rsa.pub
 *.iml
 
 # binary
-practicing-solr-golang
+go-solr-edo
 app
 
 # out

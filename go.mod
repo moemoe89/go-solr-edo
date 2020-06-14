@@ -1,4 +1,4 @@
-module github.com/moemoe89/practicing-solr-golang
+module github.com/moemoe89/go-solr-edo
 
 go 1.13
 
